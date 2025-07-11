@@ -10,6 +10,70 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 / {
+      behaviors {
+        hml: home_row_mod_left {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
+            bindings = <&kp>, <&kp>;
+
+            hold-trigger-key-positions = <KEYS_R THUMBS>;
+            hold-trigger-on-release;
+        };
+
+        hmr: home_row_mod_right {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
+            bindings = <&kp>, <&kp>;
+
+            hold-trigger-key-positions = <KEYS_L THUMBS>;
+            hold-trigger-on-release;
+        };
+    };
+
+    combos {
+        compatible = "zmk,combos";
+
+        ComboLeftShift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <24 25>;
+            layers = <0>;
+        };
+
+        ComboRightShift {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <34 35>;
+        };
+
+        bluetooth-layer {
+            bindings = <&mo 3>;
+            key-positions = <11 10 9>;
+            layers = <0>;
+        };
+
+        pop_launcher {
+            bindings = <&kp RG(SLASH)>;
+            key-positions = <38 39>;
+            layers = <0>;
+        };
+
+        scroll_lock {
+            bindings = <&kp SCROLLLOCK>;
+            key-positions = <38 17>;
+        };
+
+        LaunchTerminal {
+            bindings = <&kp LC(LG(ENTER))>;
+            key-positions = <37 40>;
+        };
+    };
     keymap {
         compatible = "zmk,keymap";
 
