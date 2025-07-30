@@ -96,11 +96,11 @@
 
             display-name = "Base";
             bindings = <
-&kp EQUAL    &kp N1       &kp N2       &lt 5 N3      &kp N4        &kp N5                             &kp N6     &kp N7              &lt 5 N8      &kp N9           &kp N0               &kp MINUS
-&kp TAB      &kp Q        &kp W        &lt 5 E       &kp R         &kp T                              &kp Y      &kp U               &lt 5 I       &kp O            &kp P                &kp BACKSLASH
-&kp ESCAPE   &hml LGUI A  &hml LALT S  &hml LCTRL D  &hml LSHFT F  &kp G                              &kp H      &hmr RIGHT_SHIFT J  &hmr RCTRL K  &hmr RALT L      &hmr RGUI SEMICOLON  &kp LEFT_BRACKET
-&lt 1 GRAVE  &kp Z        &kp X        &kp C         &lt 2 V       &lt 4 B     &kp LBKT     &kp RBKT  &kp N      &lt 2 M             &lt 1 COMMA   &mt RALT PERIOD  &lt 3 SLASH          &kp RIGHT_BRACKET
-                                       &kp LALT      &lt 2 LBKT    &kp LSHIFT  &kp SPACE    &kp RET   &kp RSHFT  &lt 2 RBKT          &kp RGUI
+&kp EQUAL    &kp N1       &kp N2       &lt 5 N3      &kp N4            &kp N5                             &kp N6     &kp N7              &lt 5 N8      &kp N9           &kp N0               &kp MINUS
+&kp TAB      &kp Q        &kp W        &lt 5 E       &kp R             &kp T                              &kp Y      &kp U               &lt 5 I       &kp O            &kp P                &kp BACKSLASH
+&kp ESCAPE   &hml LGUI A  &hml LALT S  &hml LCTRL D  &hml LSHFT F      &kp G                              &kp H      &hmr RIGHT_SHIFT J  &hmr RCTRL K  &hmr RALT L      &hmr RGUI SEMICOLON  &kp SINGLE_QUOTE
+&lt 1 GRAVE  &kp Z        &kp X        &kp C         &lt 2 V           &lt 4 B     &kp LBKT     &kp RBKT  &kp N      &lt 2 M             &lt 1 COMMA   &mt RALT PERIOD  &lt 3 SLASH          &kp RIGHT_BRACKET
+                                       &kp LALT      &kp LEFT_BRACKET  &kp LSHIFT  &kp SPACE    &kp RET   &kp RSHFT  &kp RIGHT_BRACKET   &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
