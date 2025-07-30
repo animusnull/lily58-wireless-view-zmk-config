@@ -7,11 +7,11 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/ext_power.h>
 
 // Lily58 key positions for hold-trigger
 // Layout positions for Lily58 (58 keys total)
 // Left side: 0-28, Right side: 29-57
+
 #define KEYS_L 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41
 #define KEYS_R 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 42 43 44 45 46 47
 #define THUMBS 48 49 50 51 52 53 54 55
@@ -99,7 +99,7 @@
 &kp EQUAL    &kp N1       &kp N2       &lt 5 N3      &kp N4        &kp N5                              &kp N6       &kp N7              &lt 5 N8      &kp N9           &kp N0               &kp MINUS
 &kp TAB      &kp Q        &kp W        &lt 5 E       &kp R         &kp T                               &kp Y        &kp U               &lt 5 I       &kp O            &kp P                &kp BACKSLASH
 &kp ESCAPE   &hml LGUI A  &hml LALT S  &hml LCTRL D  &hml LSHFT F  &kp G                               &kp H        &hmr RIGHT_SHIFT J  &hmr RCTRL K  &hmr RALT L      &hmr RGUI SEMICOLON  &kp LEFT_BRACKET
-&lt 1 GRAVE  &kp Z        &kp X        &kp C         &lt 2 V       &kp B        &kp LBKT     &kp RBKT  &kp N        &lt 2 M             &lt 1 COMMA   &mt RALT PERIOD  &mt RCTRL SLASH      &kp RIGHT_BRACKET
+&lt 1 GRAVE  &kp Z        &kp X        &kp C         &lt 2 V       &lt 4 B      &kp LBKT     &kp RBKT  &kp N        &lt 2 M             &lt 1 COMMA   &mt RALT PERIOD  &lt 3 SLASH          &kp RIGHT_BRACKET
                                        &kp LALT      &lt 2 LBKT    &lt 6 MINUS  &kp SPACE    &kp RET   &lt 7 MINUS  &lt 2 RBKT          &kp RGUI
             >;
 
