@@ -68,18 +68,18 @@
 
         pop_launcher {
             bindings = <&kp RG(SLASH)>;
-            key-positions = <52 53>; // LH0 RH0 (inner thumbs)
+            key-positions = <53 54>; // LH0 RH0 (inner thumbs)
             layers = <0>;
         };
 
         scroll_lock {
             bindings = <&kp SCROLLLOCK>;
-            key-positions = <52 23>; // LH0 LM5
+            key-positions = <43 42>; // LH0 LM5
         };
 
         LaunchTerminal {
             bindings = <&kp LC(LG(ENTER))>;
-            key-positions = <51 54>; // LH1 RH1
+            key-positions = <52 55>; // LH1 RH1
         };
     };
 
